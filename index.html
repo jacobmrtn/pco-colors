@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+    <button id="load">LOAD</button>
+    <button id="delete">DELETE</button>
+    <div id='items' class="items">
+        <div class="box">
+            <div class="inner-box navbar">
+                <h1 id="navbar_color">#1f1f1f</h1>
+                <h5>NAVBAR</h5>
+            </div>
+            <button onclick="copyText('navbar_color')">Copy</button>
+        </div>
+    
+        <div class="box" id="0">
+            <div class="inner-box header">
+                <h1 id="header_color">#403f3f</h1>
+                <h5>HEADER</h5>
+            </div>
+            <button onclick="copyText('header')">copy</button>
+        </div>
+    
+        <div class="box">
+            <div class="inner-box background-hover-1">
+                <h1 id="background_hover_color_1">#403f3f</h1>
+                <h5>BACKGROUND HOVER #1</h5>
+            </div>
+            <button onclick="copyText('background_hover_color_1')">copy</button>
+        </div>
+    
+        <div class="box">
+            <div class="inner-box plans-border-bottom">
+                <h1 id="plans-border-bottom-color">hsl(88, 44%, 40%)</h1>
+                <h5>PLANS BORDER BOTTOM COLOR</h5>
+            </div>
+            <button onclick="copyText('plans-border-bottom-color')">copy</button>
+        </div>
+    </div>
+    <button id="add_box">+</button>
+    <div id="menu" class="menu hidden">
+        <label for="color_code">Color Code:</label>
+        <input type="text" name="color_code" id="color_code">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="color_name">
+        <button id="done">DONE</button>
+        <button id="cancel">CANCEL</button>
+        <button id="save">SAVE</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

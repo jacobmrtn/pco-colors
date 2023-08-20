@@ -1,0 +1,53 @@
+body {
+    margin: 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.items {
+    box-shadow: 0px 0px 0px 1px #676767;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    color: white;
+    text-align: center;
+}
+
+.inner-box {
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    background-color: #1f1f1f;
+}
+
+.background-hover-1 {
+    background-color: #403f3f;
+}
+
+.header {
+    background-color: #4f4c4c;
+}
+
+.plans-border-bottom {
+    background-color: hsl(88, 44%, 40%);
+}
+
+#delete {
+    color: red;
+}
